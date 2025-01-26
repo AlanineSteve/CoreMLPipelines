@@ -4,6 +4,7 @@ import Foundation
 import Tokenizers
 
 // MARK: - TextGenerationPipeline
+extension TextGenerationPipeline: @unchecked Sendable {}
 
 public class TextGenerationPipeline {
     // MARK: Lifecycle
